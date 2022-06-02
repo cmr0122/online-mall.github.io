@@ -1,15 +1,15 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3.0 + Vite" />
+  <one-index></one-index>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import OneIndex from './components/OneIndex.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    OneIndex
   }
 }
 </script>
